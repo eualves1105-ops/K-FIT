@@ -1,0 +1,19 @@
+{
+  "name": "K-FIT — Treino, Nutrição & Bem-estar",
+  "short_name": "K-FIT",
+  "description": "Treinos em casa, receitas equilibradas e acompanhamento de peso.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#171321",
+  "theme_color": "#171321",
+  "icons": [
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
