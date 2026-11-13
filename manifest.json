@@ -1,0 +1,30 @@
+{
+  "id": "/K-FIT/",
+  "name": "K-FIT — Treinos & Bem-estar",
+  "short_name": "K-FIT",
+  "description": "Treinos em casa para pernas e abdômen, clima e acompanhamento de peso.",
+  "start_url": "/K-FIT/",
+  "scope": "/K-FIT/",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
