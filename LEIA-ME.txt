@@ -1,0 +1,18 @@
+K-FIT — VERSÃO SEM TELA DE ALIMENTAÇÃO E COM INSTALAÇÃO PWA AJUSTADA
+
+Alterações:
+- Removida a tela de alimentação/receitas e sua opção no menu inferior.
+- Mantidas as telas Início, Treinos, Peso e Mais.
+- Corrigido o conjunto de ícones PWA: PNGs 192x192 e 512x512, além do ícone Apple 180x180.
+- Manifesto com nome curto K-FIT, start_url e scope corretos para GitHub Pages em /K-FIT/.
+- Service worker atualizado (kfit-v3) e cache limpo das imagens da alimentação.
+- Botão Instalar app disponível com instruções para Android/Chrome e iPad/Safari quando o prompt automático não for oferecido.
+
+PUBLICAR:
+1. Extraia este ZIP.
+2. Envie o CONTEÚDO desta pasta para a raiz do repositório https://github.com/eualves1105-ops/K-FIT (não envie a pasta externa).
+3. Substitua os arquivos existentes e envie também a pasta assets completa.
+4. Aguarde o GitHub Pages publicar em https://eualves1105-ops.github.io/K-FIT/.
+5. No tablet, abra o endereço no Chrome. Atualize a página; se o app já foi instalado antes, remova o atalho antigo e instale novamente para atualizar o ícone.
+
+NOTA: O botão do navegador para instalar é controlado pelo próprio Chrome. O site não consegue forçar a exibição do comando do navegador; o manifesto, os ícones e o service worker precisam estar válidos e servidos por HTTPS.
