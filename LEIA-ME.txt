@@ -1,0 +1,21 @@
+K-FIT — VERSÃO SEM ALIMENTAÇÃO (CORREÇÃO DE ÍCONE E INSTALAÇÃO)
+
+Esta versão mantém Início, Treinos, Peso e Mais. A tela/aba Comida foi removida.
+
+CORREÇÕES:
+- Logotipo do cabeçalho agora é desenhado no próprio HTML/CSS (não depende de uma imagem externa, evitando ícone quebrado).
+- Ícones PWA 192x192, 512x512 e Apple Touch 180x180 incluídos na pasta assets.
+- Service worker atualizado para kfit-v4, para substituir o cache antigo e remover a antiga navegação Comida.
+- Botão Instalar app permanece visível e informa como instalar quando o navegador não oferece o evento automático.
+
+COMO PUBLICAR:
+1. Extraia todo o ZIP.
+2. No repositório GitHub K-FIT, envie SUBSTITUINDO os arquivos antigos.
+3. Envie também a pasta assets COMPLETA. A estrutura deve ficar assim: index.html, manifest.json, sw.js e assets/.
+4. Aguarde o GitHub Pages publicar.
+5. No tablet, abra o site no navegador e atualize a página. Se continuar vendo a versão antiga, limpe os dados/cache do site e abra novamente.
+6. Use o menu do navegador > Adicionar à tela inicial / Instalar aplicativo.
+
+URL: https://eualves1105-ops.github.io/K-FIT/
+
+IMPORTANTE: o ícone do atalho instalado depende dos arquivos da pasta assets estarem publicados no GitHub Pages.
